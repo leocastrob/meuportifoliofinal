@@ -4,19 +4,11 @@ import { Github, Globe, Tag } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-<<<<<<< HEAD
-      title: 'Projeto 1',
-      description: 'Descrição do projeto 1. Adicione aqui os detalhes do seu projeto.',
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97',
-      technologies: ['React', 'TypeScript', 'TailwindCSS'],
-      githubUrl: '#',
-=======
       title: 'Lista de Tarefas',
       description: 'Este é um To-Do List em React TypeScript com persistência via localStorage, permitindo adicionar, concluir, excluir e filtrar tarefas. O projeto possui modo claro/escuro , componentes reutilizáveis e boas práticas como tipagem forte e ganchos personalizados .',
       image: 'src/midias/imglistadetareafas.JPG',
       technologies: ['React', 'TypeScript', 'TailwindCSS'],
       githubUrl: 'https://github.com/leocastrob/listadetarefas',
->>>>>>> 114c81d (Adição do projeto de lista de tarefas e feita algumas alteraçoes na sessão de projetos)
       liveUrl: '#'
     },
     {
@@ -27,17 +19,6 @@ const Projects = () => {
       githubUrl: '#',
       liveUrl: '#'
     },
-<<<<<<< HEAD
-    {
-      title: 'Projeto 3',
-      description: 'Descrição do projeto 3. Adicione aqui os detalhes do seu projeto.',
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97',
-      technologies: ['React', 'Node.js', 'MongoDB'],
-      githubUrl: '#',
-      liveUrl: '#'
-    }
-=======
->>>>>>> 114c81d (Adição do projeto de lista de tarefas e feita algumas alteraçoes na sessão de projetos)
   ];
 
   return (
@@ -47,11 +28,7 @@ const Projects = () => {
         <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-teal-400 mx-auto"></div>
       </div>
 
-<<<<<<< HEAD
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-=======
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
->>>>>>> 114c81d (Adição do projeto de lista de tarefas e feita algumas alteraçoes na sessão de projetos)
         {projects.map((project, index) => (
           <div
             key={index}
