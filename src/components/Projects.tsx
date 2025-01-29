@@ -90,15 +90,6 @@ const Projects = () => {
                   <Github className="w-5 h-5" />
                   Código
                 </a>
-                <a
-                  href={project.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
-                >
-                  <Globe className="w-5 h-5" />
-                  Demo
-                </a>
               </div>
             </div>
           </div>
