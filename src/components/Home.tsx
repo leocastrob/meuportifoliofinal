@@ -4,7 +4,7 @@ import { Download, ArrowDown } from 'lucide-react';
 const Home = () => {
   const handleDownloadCV = () => {
     
-    const cvUrl = 'src/midias/Currículo Leonardo B. de Castro.pdf';
+    const cvUrl = 'src/midias/Curriculo Leonardo Castro.pdf';
     window.open(cvUrl, '_blank');
   };
 
