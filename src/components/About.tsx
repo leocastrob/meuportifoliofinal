@@ -17,7 +17,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Profile Section */}
+        
         <div className="space-y-6">
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 space-y-4">
             <h3 className="text-2xl font-semibold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
@@ -53,7 +53,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {skills.map((category) => (
             <div key={category.name} className="bg-white/5 backdrop-blur-sm rounded-2xl p-6">
