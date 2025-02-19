@@ -3,7 +3,7 @@ import { Download, ArrowDown } from 'lucide-react';
 
 const Home = () => {
   const handleDownloadCV = () => {
-    // Substitua a URL abaixo pelo link do seu currículo
+    
     const cvUrl = 'src/midias/Currículo Leonardo B. de Castro.pdf';
     window.open(cvUrl, '_blank');
   };
@@ -14,17 +14,15 @@ const Home = () => {
 
   return (
     <div className="relative min-h-screen flex items-center justify-center">
-      {/* Background Animation */}
+      
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-teal-500/10 animate-pulse" />
         <div className="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b from-gray-900 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-gray-900 to-transparent" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center">
-          {/* Profile Photo */}
+        <div className="flex flex-col items-center">       
           <div className="mb-8 relative">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/10 relative z-10">
               <img
@@ -33,7 +31,6 @@ const Home = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Decorative rings */}
             <div className="absolute inset-0 rounded-full border-4 border-blue-500/30 animate-pulse" />
             <div className="absolute -inset-2 rounded-full border-4 border-teal-400/20" />
           </div>
@@ -68,7 +65,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <ArrowDown className="text-white/50" />
       </div>
