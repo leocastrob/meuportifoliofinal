@@ -12,13 +12,21 @@ const Projects = () => {
       liveUrl: '#'
     },
     {
-      title: 'Projeto 2',
-      description: 'Descrição do projeto 2. Adicione aqui os detalhes do seu projeto.',
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97',
-      technologies: ['Node.js', 'Express', 'PostgreSQL'],
-      githubUrl: '#',
+      title: 'Pizzaria Online',
+      description: 'Este é um site de pizzaria desenvolvido com HTML, CSS e JavaScript, permitindo a seleção de pizzas de diferentes tamanhos, adição ao carrinho e cálculo dinâmico do subtotal e descontos. O projeto possui uma interface responsiva e interativa, focada na experiência do usuário.',
+      image: 'src/midias/imgpizzaria.JPG',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/leocastrob/pizzaria.git',
       liveUrl: '#'
     },
+    {
+      title: 'Calculadora de Motorista de App',
+      description: 'Este é uma Calculadora de Lucro para Motoristas de Aplicativo, desenvolvida com React e TypeScript. O projeto permite estimar ganhos, despesas e lucro líquido com base em variáveis como consumo do carro, preço do combustível e quilometragem rodada. Possui uma interface moderna com shadcn-ui e Tailwind CSS, gráficos interativos e cálculos automáticos para auxiliar na tomada de decisões financeiras.',
+      image: 'src/midias/foto projeto calculadora para motorista de app.JPG ',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/leocastrob/Calculadoramotoristadeapp.git',
+      liveUrl: '#'
+    }
   ];
 
   return (
